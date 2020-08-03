@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
         //Get the first child under this game object
         camera = this.gameObject.transform.GetChild(0).gameObject;
 
-        speed = 3;
+        // speed = 3;
 
         rb = GetComponent<Rigidbody>();
     }
